@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.submit-btn {
+    background-color: #4CAF50; /* สีเขียว */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+
+
+.back {
+    position: relative;
+    width: 100%;
+    height: 300vh; /* ครอบคลุมความสูงของหน้าจอ */
+    background-image: url('back2.png'); /* ใส่ภาพพื้นหลัง */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+.container {
+    margin-top: 350px;
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 40px;
+
+    position: absolute;
+      top: 50%; /* จัดตำแหน่งให้อยู่ตรงกลางแนวตั้ง */
+      left: 50%; /* จัดตำแหน่งให้อยู่ตรงกลางแนวนอน */
+      transform: translate(-50%, -50%); /* ปรับให้อยู่กึ่งกลางพอดี */
+}
+
+.form-card {
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ff9800;
+}
+
+.divider {
+    border: none;
+    border-top: 3px solid #ddd;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width: 600px;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+    
+}
+
+.form-group input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group select {
+    width: 52.5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    background-color: #2ac530;
+    color: #fff;
+    border: none;
+    padding: 10px 35px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 300px;
+    border-radius: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* ขอโทษผมหาไอคอนไม่เจออันนี้ เป็น โปรไฟล์ */
+.profile-icon {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.icon-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 70px;
+    bottom: 10px;
+}
+
+.profile-icon i {
+    font-size: 40px;
+}
+#fullname{
+    width: 400px;
+    border-radius: 10px;
+}
+#email{
+    width: 400px;
+    border-radius: 10px;
+}
+#password{
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.free{
+margin-top: 500px;
+font-size: 500px;
+}

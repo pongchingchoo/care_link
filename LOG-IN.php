@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Link - Login</title>
+    <link rel="stylesheet" href="LOG IN2.css">
+</head>
+<body>
+    <div class="back">
+        <div class="container">
+            <div class="left-section">
+                <h1>Welcome to <span class="highlight">Care Link</span></h1>
+                <p class="subtitle">"เชื่อมโยง<span style="color: #00bfa5;">ผู้ดูแล</span>กับความต้องการของคุณ"</p>
+            </div>
+            <div class="right-section">
+                <div class="form-container">
+                    <div class="button guardian" onclick="location.href='LOG-in_caregiver.php'">login ผู้ดูแล</div>
+                    <br><br><br><br>
+                    <div class="button caretaker" onclick="location.href='LOG-in_parent.php'">login ผู้ปกครอง</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

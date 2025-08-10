@@ -1,0 +1,371 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    position: absolute;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin: 0 10% ;
+
+}
+
+.head {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    border-radius: 50px;
+
+}
+
+.head nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.icon-circle {
+    margin-left: 50px;
+    width: 54px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon-circle{
+    font-size: 20px;
+}
+header .cta-button {
+    background-color: #00a99d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 20px 500px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.search-bar input {
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    outline: none;
+    flex-grow: 1;
+    color: #333;
+}
+.search-bar button {
+    background-color: #f5a623;
+    border: none;
+    padding: 10px 10px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.search-bar button i {
+    color: #ffffff;
+}
+
+.level{
+text-align: center;
+}
+.header {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ff7f00;
+}
+.care-level {
+    display: flex;
+    margin-bottom: 20px;
+}
+.care-level {
+    border: 1px solid #f5a623;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.care-level .level-1 {
+    width: 70px;
+    height: 60px;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ff7f00;
+    color: #ffda6c;
+}
+.care-level .level-2 {
+    width: 70px;
+    height: 60px;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #80deea;
+}
+.heart-icon{
+    font-size: 30px;
+}
+
+.dropdown-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.filter .dropdown-container select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ff7f00;
+    color: #ff7f00;
+    border-radius: 5px;
+    background: #fff;
+}
+
+
+
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 400px 40px 400px;
+}
+
+
+
+.menu {
+    display: flex;
+    gap: 30px;
+    margin: 20px 7%;
+}
+.menu-item {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+}
+.menu-item:hover,
+.menu-item.active {
+    color: #333;
+    font-weight: bold;
+}
+.menu-item.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: #f5a623;
+}
+
+.cards {
+    display: grid;
+    margin: 0 5%;
+    grid-template-columns: repeat(4, 1fr); /* สร้าง 4 คอลัมน์ที่มีขนาดเท่ากัน */
+    grid-template-rows: repeat(2, auto); /* สร้าง 2 แถวที่ขนาดปรับอัตโนมัติ */
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card p{
+    margin: 0 10px;
+}
+.card p i{
+    margin: 0 10px 0 0;
+}
+.sub-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.sub-card button{
+    width: 70px;
+    height: 25px;
+    background-color: #f5a623;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+}
+.sub-card button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ff7f00;
+}
+
+
+.more{
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more h1{
+    width: 140px;
+    height: 50px;
+    background-color: #ff7f00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: #e0f7fa;
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content div {
+    width: 20%;
+}
+
+.footer-content h3 {
+    font-size: 18px;
+    color: #00bfa5;
+    margin-bottom: 15px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #666;
+}
+.star{
+    display: flex;
+    color: yellow;
+}
+.star i{
+    padding: 2px;
+}
+
+
+
+
+
+
+/* ปุ่มกดเปิดแบบสอบถาม */
+.open-popup-btn {
+    padding: 10px 20px;
+    background-color: #ff9100;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    left: 700px;
+}
+
+/* พื้นหลัง Popup (ซ่อนเริ่มต้น) */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* ทำให้เต็มหน้าจอ */
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; /* ให้เลื่อนลงได้ */
+    padding: 20px;
+}
+
+/* กล่องเนื้อหาของ Popup */
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 700px; /* กำหนดความกว้าง */
+    max-width: 90%; /* ไม่ให้ใหญ่เกินไป */
+    max-height: 90vh; /* ไม่ให้สูงเกินไป */
+    overflow-y: auto; /* ให้เลื่อนภายในได้ */
+    position: relative;
+}
+
+/* ปุ่มปิด Popup */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
